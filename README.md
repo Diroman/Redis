@@ -1,6 +1,6 @@
-#Инструкция по запуску
+# Инструкция по запуску
 
-###Linux
+### Linux
 1) В файле config.json указать host и port redis контейнера
 2) Выполнить команду:
     * Для python2.*:
@@ -19,5 +19,5 @@
     * http://localhost:5000/four
 4) По ссылке http://localhost:5000/logs доступна таблица с логами
 
-###Windows
+### Windows
 Никак))
