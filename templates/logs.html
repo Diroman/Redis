@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="center">
+    <div class="title"><a>Логи</a></div>
+    <table class="log_table">
+        <th></th>
+        {% for row in rows %}
+            <tr class="log">
+                <td class="log_key"><a>{{ row.log_key }}</a></td>
+                <td class="time"><a>{{ row.time }}</a></td>
+                <td class="url"><a>{{ row.url }}</a></td>
+                <td class="ip"><a>{{ row.ip }}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+</body>
+</html>
